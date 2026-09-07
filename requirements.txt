@@ -1,0 +1,23 @@
+# === LangChain core ===
+langchain>=0.3.0
+langchain-groq>=0.1.0
+langchain-huggingface>=0.0.3
+langchain-text-splitters>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.0
+
+# === Vector store ===
+chromadb>=0.5.0
+
+# === Document loaders ===
+pypdf>=4.0.0          # PDF loader
+beautifulsoup4>=4.12  # Web / HTML loader
+requests>=2.31.0
+
+# === Embeddings & LLM ===
+sentence-transformers>=3.0.0
+tiktoken>=0.7.0
+
+# === Utilities ===
+python-dotenv>=1.0.0
+rich>=13.0.0           # Pretty console output
