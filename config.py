@@ -35,3 +35,7 @@ TOP_K: int = 5               # Numero di chunk da recuperare per query
 
 # ── Chroma ──────────────────────────────────────────────────────────────────
 COLLECTION_NAME: str = "rag_docs"
+
+# ── Logging ─────────────────────────────────────────────────────────────────
+LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
+LOG_DIR: Path = BASE_DIR / "logs"
